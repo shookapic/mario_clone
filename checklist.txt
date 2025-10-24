@@ -1,0 +1,45 @@
+1. Player Character (Mario)
+
+✅ Import the Mario model (provided)
+✅ Use Rigidbody for movement
+✅ Implement:
+  • Move left/right for forward/backward with arrow keys or WASD
+  • Flip player face according to movement direction
+  • Jump with Spacebar (use Unity’s Physics.gravity)
+✅ Add animations (walk, idle, jump)
+✅ Play a jump sound when Mario jumps
+
+2. Environment
+
+✅ Create a ground plane or terrain
+✅ Add platforms (textured blocks) at different heights
+✅ Use textures from the provided Mario sprites (bricks, grass, etc.)
+
+3. Collectibles (Coins)
+
+✅ Place 5 coins in the level
+✅ When Mario touches a coin:
+  • Destroy the coin (Destroy(gameObject))
+  • Play a coin sound
+  • Increase score by +1
+
+4. Obstacles / Enemies
+
+✅ Add at least 1 enemy (e.g., a beetle)
+✅ If Mario collides with the enemy:
+  • Reduce lives by one (start with 3)
+  • Play a “hit” sound
+✅ If Mario jumps on top of the enemy → enemy is destroyed
+
+5. UI
+
+✅ Add a Canvas with:
+  • Score text (coins collected)
+  • Lives text (remaining lives)
+
+6. Level Goal
+
+✅ Add a flagpole or castle prefab at the end of the level
+✅ When Mario touches it:
+  • Show “Level Complete!” in the UI
+  • Stop player movement
