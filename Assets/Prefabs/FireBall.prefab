@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4539435214319041520}
   m_Layer: 0
   m_Name: FireBall
-  m_TagString: Untagged
+  m_TagString: FireBalll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -171,3 +171,4 @@ MonoBehaviour:
   speed: 8
   bounceForce: 5
   lifetime: 3
+  damage: 1

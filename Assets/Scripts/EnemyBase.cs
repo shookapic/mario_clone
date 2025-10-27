@@ -15,7 +15,6 @@ public class Enemy : MonoBehaviour
 
     void Die()
     {
-        // Optional: play animation or sound here
         Destroy(gameObject);
     }
 }
