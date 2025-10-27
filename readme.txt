@@ -1,24 +1,25 @@
-MY SUPER MARIO 2D CLONE
-This game was made on Unity 6 (6000.2.6.f1)
------------------------
+# 🎮 Game Development Progress Tracker
 
-Controls:
-- A / D: Move left / right
-- Space: Jump
-- U: Toggle coin UI display
+## 🧾 Overview
+This document tracks the progress of core gameplay features for the project. Each task represents a key mechanic or system to be implemented before the final build.  
+Use the checklist below to monitor development and testing status.
 
-Features Implemented:
-- Player movement with physics-based jump
-- Idle, walk, and jump animations
-- Coin collection with UI counter
-- Coin sound effect
-- Breakable wall that disappears after all coins are collected
-- Enemy cactus with stomp detection (player can destroy enemy from top, loses life otherwise)
-- Background fitted to camera
-- Simple UI with coin counter / life counter
-- Basic sound effects (jump, coin, enemy)
+---
 
-Known Bugs:
-- Rare case: coin counter may desync if coin destroyed in editor while game running
-- Player can levitate against wall / platform
+## ✅ Task Progress
 
+| # | Task Description | Status | Comments |
+|---|------------------|:------:|----------|
+| 1 | **Power-Up:** Player grows 20% and shoots fireballs | ✔ | Hitbox sometimes are glitching |
+| 2 | **Fireballs:** Travel correctly and hit enemies/boss | ✔ | Working fine |
+| 3 | **Bird Enemy:** Flies, detects player, and attacks | ✔ | No animations |
+| 4 | **Collisions:** Player loses power-up/life on hit | ✔ | Working |
+| 5 | **Checkpoint System:** Activated and saves respawn | ✔ | Working and saves player state |
+| 6 | **Respawn:** Player respawns correctly after death | ✔ | Working but olayer can die after winning [...] |
+| 7 | **HUD:** Displays Lives, Coins, Score, Timer | ✔ | Working and can be hidden + FPS counter |
+| 8 | **Timer:** Counts down from 180 seconds | ✔ | Working, game will end at the end of timer |
+| 9 | **Boss AI:** Patrols within area and attacks player | ✔ | Working but boss have no animations |
+| 10 | **Boss Defeat:** Dies after 10 hits (fireball/jump) | ✔ | Working  |
+| 11 | **Screens:** Game Over and Level Complete implemented | ✔ | Both Working |
+
+---
